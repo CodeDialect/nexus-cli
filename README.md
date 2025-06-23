@@ -35,7 +35,7 @@ If not, a new node ID will be generated and registered.
 
 ---
 
-## ðŸ“º Managing Your Node
+## 📺 Managing Your Node
 
 ### To attach to the running node session:
 ```bash
@@ -52,7 +52,7 @@ screen -XS nexus quit
 
 ---
 
-## ðŸ§¹ Uninstall Instructions
+## 🧹 Uninstall Instructions
 
 To remove everything created by the script:
 ```bash
