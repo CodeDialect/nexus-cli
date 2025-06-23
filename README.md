@@ -17,8 +17,7 @@ This script sets up a Nexus Prover Node on any Ubuntu VPS or local Linux machine
 
 ##  🚀 Quick Start
 ### Install Dependencies 
-```
-bash
+```bash
 sudo apt update && sudo apt install curl -y
 ```
 
