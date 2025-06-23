@@ -72,11 +72,5 @@ exec bash
 4. Click **Add Node**  **Add CLI Node**
 5. Copy your **Node ID**
 
-Or use CLI:
-```bash
-nexus-network register-user --wallet-address your-wallet-address
-nexus-network register-node
-```
-
 ---
 
