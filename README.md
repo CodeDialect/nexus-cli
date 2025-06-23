@@ -69,7 +69,7 @@ exec bash
 1. Visit: https://app.nexus.xyz
 2. Login with your EVM wallet (e.g., MetaMask)
 3. Go to: https://app.nexus.xyz/nodes
-4. Click **Add Node** â†’ **Add CLI Node**
+4. Click **Add Node**  **Add CLI Node**
 5. Copy your **Node ID**
 
 Or use CLI:
