@@ -40,8 +40,10 @@ rustup target add riscv32i-unknown-none-elf
 
 echo -e "${YELLOW}>> Installing Nexus CLI...${NC}"
 curl https://cli.nexus.xyz/ | sh
-source "$HOME/.bashrc"
-
+# Ensure nexus-network binary is in PATH
+export PATH="$HOME/.nexus/bin:$PATH"
+echo 'export PATH="$HOME/.nexus/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 # === Prompt user for wallet address and node ID ===
 read -p "Enter your EVM Wallet Address: " WALLET_ADDRESS
 read -p "Do you already have a Node ID? (y/n): " HAS_NODE
