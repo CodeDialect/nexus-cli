@@ -32,6 +32,9 @@ else
     source "$HOME/.cargo/env"
 fi
 
+# Ensure cargo is in PATH
+export PATH="$HOME/.cargo/bin:$PATH"
+
 echo -e "${YELLOW}>> Adding target for Nexus...${NC}"
 rustup target add riscv32i-unknown-none-elf
 
