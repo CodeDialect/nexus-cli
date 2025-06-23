@@ -1,5 +1,5 @@
 
-# Nexus Prover Node â€“ One-Click Installer
+# Nexus Prover Node One-Click Installer
 
 This script sets up a Nexus Prover Node on any Ubuntu VPS or local Linux machine with a single command. It installs dependencies, prompts you for your wallet and node ID, and runs the node inside a background `screen` session.
 
