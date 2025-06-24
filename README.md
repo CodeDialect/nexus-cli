@@ -42,7 +42,7 @@ If not, a new node ID will be generated and registered.
 
 ---
 
-## ðŸš€ Earn More NEX? Run Multiple CLI Nodes
+## Earn More NEX? Run Multiple CLI Nodes
 
 You can now run multiple Nexus CLI nodes to maximize your rewards by using separate screen sessions. Here's how to spin up a second node:
 
