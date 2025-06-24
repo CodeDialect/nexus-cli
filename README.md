@@ -42,6 +42,40 @@ If not, a new node ID will be generated and registered.
 
 ---
 
+## ðŸš€ Earn More NEX? Run Multiple CLI Nodes
+
+You can now run multiple Nexus CLI nodes to maximize your rewards by using separate screen sessions. Here's how to spin up a second node:
+
+### Step-by-Step Guide to Start a 2nd Node
+
+1. **Create a New Screen Session**
+   ```bash
+   screen -S nexus2
+   ```
+
+2. **Generate a New Node ID**
+   ```bash
+   nexus-network register-node
+   ```
+
+3. **Start the Second Node**
+   ```bash
+   nexus-network start --node-id your-node-id
+   ```
+   > Replace `your-node-id` with the newly registered node ID.
+
+You can repeat the above steps to run as many nodes as your system can handle!
+
+To check your CPU usage
+
+```bash
+sudo apt install htop
+```
+
+```bash
+htop
+```
+
 ## 📺 Managing Your Node
 
 ### To attach to the running node session:
