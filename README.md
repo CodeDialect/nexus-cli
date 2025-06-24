@@ -15,6 +15,13 @@ This script sets up a Nexus Prover Node on any Ubuntu VPS or local Linux machine
 
 ---
 
+### Important Use Ubuntu 24.04 and above
+
+## For Quickpod users run below first
+```bash
+apt update && apt install sudo
+```
+
 ##  🚀 Quick Start
 ### Install Dependencies 
 ```bash
